@@ -1,8 +1,7 @@
 @SauceDemo
 Feature: SauceDemo_Website
 @TC01_Login_SauceDemo
-Scenario Outline:
-Login in SauceDemo Website
+Scenario Outline:Login in SauceDemo Website
 Given the user launch the chrome application
 When the user open the Sauce_demo Home page 
 Then The user login using "<username>" and "<password>" with vaild details
@@ -16,16 +15,14 @@ Examples:
 
 
 @TC02_InvalidLogin_SauceDemo
-Scenario:
-Login in SauceDemo Website
+Scenario: Login in SauceDemo Website
 Given the user launching the chrome application 
 When the user opens the Sauce_demo Home page 
 Then the user login using invalid username and password
 Then Close the browser
 
 @TC03_Add_to_cart
-Scenario:
-Add products into the cart
+Scenario: Add products into the cart
 Given launch the chrome application
 When  open the Sauce_demo Home page
 Then  user login the home page
@@ -33,8 +30,7 @@ Then Add to cart
 Then Closing the browser
 
 @TC04_checking_selenium_configuration_in_platformfield
-Scenario:
-checking selenium code in platformfield
+Scenario: checking selenium code in platformfield
 Given  user launch the chrome application
 When  user open the Sauce_demo Home page
 Then The user login the home page
@@ -42,8 +38,7 @@ Then check selenium configuration
 Then closing the browser
 
 @TC05_Select_any_one_field_in_about
-Scenario:
-Select  any one field in about
+Scenario: Select  any one field in about
 Given launching  the chrome application
 When opens the Sauce_demo Home page
 Then login  the home page
