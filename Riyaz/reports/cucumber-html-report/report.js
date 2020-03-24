@@ -125,14 +125,14 @@ formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 11509372600,
+  "duration": 10815368400,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 2049775400,
+  "duration": 2510387900,
   "status": "passed"
 });
 formatter.match({
@@ -149,14 +149,14 @@ formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_login_using_and_with_vaild_details(String,String)"
 });
 formatter.result({
-  "duration": 11213194001,
+  "duration": 11858071400,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 3135503101,
+  "duration": 3092868500,
   "status": "passed"
 });
 formatter.scenario({
@@ -205,14 +205,14 @@ formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 9702538800,
+  "duration": 10152156900,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 2477431499,
+  "duration": 2224032900,
   "status": "passed"
 });
 formatter.match({
@@ -229,14 +229,14 @@ formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.the_user_login_using_and_with_vaild_details(String,String)"
 });
 formatter.result({
-  "duration": 17614256101,
+  "duration": 17835829900,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_login_Stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 3065681999,
+  "duration": 3146931800,
   "status": "passed"
 });
 formatter.scenario({
@@ -277,28 +277,28 @@ formatter.match({
   "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_launching_the_chrome_application()"
 });
 formatter.result({
-  "duration": 10256702399,
+  "duration": 10176355300,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_opens_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 2771028700,
+  "duration": 2017448200,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_login_using_invalid_username_and_password()"
 });
 formatter.result({
-  "duration": 6077249499,
+  "duration": 5254723500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Invalidlogin_Stepdefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 3081792901,
+  "duration": 3145057100,
   "status": "passed"
 });
 formatter.scenario({
@@ -344,35 +344,35 @@ formatter.match({
   "location": "Sauce_Demo_Addcart_Stepdefinition.launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 10083159300,
+  "duration": 10187376200,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Addcart_Stepdefinition.open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 3168966900,
+  "duration": 2003457900,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Addcart_Stepdefinition.user_login_the_home_page()"
 });
 formatter.result({
-  "duration": 10985348400,
+  "duration": 6324669500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Addcart_Stepdefinition.add_to_cart()"
 });
 formatter.result({
-  "duration": 18640149199,
+  "duration": 18409846500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_Addcart_Stepdefinition.closing_the_browser()"
 });
 formatter.result({
-  "duration": 3104504801,
+  "duration": 3150876200,
   "status": "passed"
 });
 formatter.scenario({
@@ -418,35 +418,35 @@ formatter.match({
   "location": "Sauce_Demo_platformfield_Stepdefinition.user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 10054989300,
+  "duration": 9816335200,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_platformfield_Stepdefinition.user_open_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 2723265600,
+  "duration": 2149679000,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_platformfield_Stepdefinition.the_user_login_the_home_page()"
 });
 formatter.result({
-  "duration": 11580200600,
+  "duration": 6797026800,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_platformfield_Stepdefinition.search_the_product()"
 });
 formatter.result({
-  "duration": 35994293000,
+  "duration": 33911489500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_platformfield_Stepdefinition.closing_the_browser()"
 });
 formatter.result({
-  "duration": 7140294600,
+  "duration": 7389295800,
   "status": "passed"
 });
 formatter.scenario({
@@ -492,35 +492,35 @@ formatter.match({
   "location": "Sauce_Demo_companycareer_stepdefinition.launching_the_chrome_application()"
 });
 formatter.result({
-  "duration": 10628244700,
+  "duration": 9574248100,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_companycareer_stepdefinition.opens_the_Sauce_demo_Home_page()"
 });
 formatter.result({
-  "duration": 3779579300,
+  "duration": 1980250500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_companycareer_stepdefinition.login_the_home_page()"
 });
 formatter.result({
-  "duration": 10383708300,
+  "duration": 7061787400,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_companycareer_stepdefinition.select_any_field_in_about()"
 });
 formatter.result({
-  "duration": 18823868300,
+  "duration": 17183526500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sauce_Demo_companycareer_stepdefinition.close_browser()"
 });
 formatter.result({
-  "duration": 3120851900,
+  "duration": 7366884100,
   "status": "passed"
 });
 });

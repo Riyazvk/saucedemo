@@ -1,0 +1,474 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "",
+        "description": "Login in SauceDemo Website",
+        "id": "saucedemo-website;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10815368400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2510387900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user open the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_open_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11858071400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login using \"standard_user\" and \"secret_sauce\" with vaild details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 42
+                }
+              ],
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_login_using_and_with_vaild_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3092868500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC01_Login_SauceDemo"
+          },
+          {
+            "line": 1,
+            "name": "@SauceDemo"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "Login in SauceDemo Website",
+        "id": "saucedemo-website;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10152156900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2224032900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user open the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_open_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17835829900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login using \"performance_glitch_user\" and \"secret_sauce\" with vaild details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 52
+                }
+              ],
+              "location": "Sauce_Demo_login_Stepdefinition.the_user_login_using_and_with_vaild_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3146931800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "Sauce_Demo_login_Stepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC01_Login_SauceDemo"
+          },
+          {
+            "line": 1,
+            "name": "@SauceDemo"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "Login in SauceDemo Website",
+        "id": "saucedemo-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10176355300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user launching the chrome application",
+            "match": {
+              "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_launching_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2017448200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user opens the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_opens_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5254723500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user login using invalid username and password",
+            "match": {
+              "location": "Sauce_Demo_Invalidlogin_Stepdefinition.the_user_login_using_invalid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3145057100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Close the browser",
+            "match": {
+              "location": "Sauce_Demo_Invalidlogin_Stepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@TC02_InvalidLogin_SauceDemo"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "",
+        "description": "Add products into the cart",
+        "id": "saucedemo-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10187376200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "launch the chrome application",
+            "match": {
+              "location": "Sauce_Demo_Addcart_Stepdefinition.launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2003457900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "open the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_Addcart_Stepdefinition.open_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6324669500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user login the home page",
+            "match": {
+              "location": "Sauce_Demo_Addcart_Stepdefinition.user_login_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18409846500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Add to cart",
+            "match": {
+              "location": "Sauce_Demo_Addcart_Stepdefinition.add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3150876200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Closing the browser",
+            "match": {
+              "location": "Sauce_Demo_Addcart_Stepdefinition.closing_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@TC03_Add_to_cart"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "",
+        "description": "checking selenium code in platformfield",
+        "id": "saucedemo-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9816335200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user launch the chrome application",
+            "match": {
+              "location": "Sauce_Demo_platformfield_Stepdefinition.user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2149679000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user open the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_platformfield_Stepdefinition.user_open_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6797026800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The user login the home page",
+            "match": {
+              "location": "Sauce_Demo_platformfield_Stepdefinition.the_user_login_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33911489500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "check selenium configuration",
+            "match": {
+              "location": "Sauce_Demo_platformfield_Stepdefinition.search_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7389295800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "closing the browser",
+            "match": {
+              "location": "Sauce_Demo_platformfield_Stepdefinition.closing_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@TC04_checking_selenium_configuration_in_platformfield"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "",
+        "description": "Select  any one field in about",
+        "id": "saucedemo-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9574248100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "launching  the chrome application",
+            "match": {
+              "location": "Sauce_Demo_companycareer_stepdefinition.launching_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1980250500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "opens the Sauce_demo Home page",
+            "match": {
+              "location": "Sauce_Demo_companycareer_stepdefinition.opens_the_Sauce_demo_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7061787400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "login  the home page",
+            "match": {
+              "location": "Sauce_Demo_companycareer_stepdefinition.login_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17183526500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Select any field in about",
+            "match": {
+              "location": "Sauce_Demo_companycareer_stepdefinition.select_any_field_in_about()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7366884100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "close browser",
+            "match": {
+              "location": "Sauce_Demo_companycareer_stepdefinition.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@TC05_Select_any_one_field_in_about"
+          }
+        ]
+      }
+    ],
+    "name": "SauceDemo_Website",
+    "description": "",
+    "id": "saucedemo-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/Sauce_Demo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SauceDemo"
+      }
+    ]
+  }
+]
