@@ -24,6 +24,6 @@ public class Sauce_Demo_Runner
 {
 	@AfterClass
    public static void writeExtentReport() {
-        Reporter.loadXMLConfig("src/test/resources/extend-config.xml");
+        Reporter.loadXMLConfig("src/test/resources/TestData/extend-config.xml");
     }
 }
