@@ -22,8 +22,8 @@ import cucumber.api.junit.Cucumber;
 		)
 public class Sauce_Demo_Runner 
 {
-//	@AfterClass
-//   public static void writeExtentReport() {
-//        Reporter.loadXMLConfig("src/test/resources/extend-config.xml");
-//    }
+	@AfterClass
+   public static void writeExtentReport() {
+        Reporter.loadXMLConfig("src/test/resources/extend-config.xml");
+    }
 }
