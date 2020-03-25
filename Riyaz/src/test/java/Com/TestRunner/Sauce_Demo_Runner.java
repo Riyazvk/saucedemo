@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/main/resources/Feature/Sauce_Demo.feature",
 		//plugin = {"pretty", "html:reports/cucumber-html-report"},
 		//plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport"},
-	    plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+	    plugin = {"pretty","html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 
 		//tags = {"@TC01_Login_SauceDemo"},
 		glue = {"Com.Stepdefinition"},
